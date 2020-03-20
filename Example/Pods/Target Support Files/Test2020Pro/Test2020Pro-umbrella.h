@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Person.h"
 
 FOUNDATION_EXPORT double Test2020ProVersionNumber;
 FOUNDATION_EXPORT const unsigned char Test2020ProVersionString[];

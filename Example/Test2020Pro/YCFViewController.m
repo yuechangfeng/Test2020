@@ -8,6 +8,8 @@
 
 #import "YCFViewController.h"
 
+#import "Person.h"
+
 @interface YCFViewController ()
 
 @end
@@ -18,6 +20,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    Person *one = [[Person alloc] init];
+    [one personJn];
 }
 
 - (void)didReceiveMemoryWarning
