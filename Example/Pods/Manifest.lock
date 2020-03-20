@@ -1,0 +1,16 @@
+PODS:
+  - Test2020Pro (0.1.0)
+
+DEPENDENCIES:
+  - Test2020Pro (from `../`)
+
+EXTERNAL SOURCES:
+  Test2020Pro:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Test2020Pro: d7bd7c5f2dc9801bd2ff96e98324fbde203b6a48
+
+PODFILE CHECKSUM: 3adcd11b4f46ad545e85f84405293d367f9e65ad
+
+COCOAPODS: 1.7.1
