@@ -18,18 +18,9 @@
   "platforms": {
     "ios": "8.0"
   },
-  "resources": [
-    "Test2020Pro/Test2020Pro/*.json",
-    "Test2020Pro/**/*.xib"
-  ],
+  "source_files": "Test2020Pro/Classes/**/*.{h,m}",
   "frameworks": [
     "UIKit",
     "Foundation"
-  ],
-  "subspecs": [
-    {
-      "name": "Person",
-      "source_files": "Test2020Pro/Classes/Person/**/*.{h,m}"
-    }
   ]
 }

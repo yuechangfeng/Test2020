@@ -24,11 +24,12 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   
-  s.subspec 'Person' do |p|
-      p.source_files = 'Test2020Pro/Classes/Person/**/*.{h,m}'
-  end
+  s.source_files = 'Test2020Pro/Classes/**/*.{h,m}'
+#  s.subspec 'Person' do |p|
+#
+#  end
   
-  s.resources =  'Test2020Pro/Test2020Pro/*.json','Test2020Pro/**/*.xib'
+  # s.resources =  'Test2020Pro/Test2020Pro/*.json','Test2020Pro/**/*.xib'
   
   # s.resource_bundles = {
   #   'Test2020Pro' => ['Test2020Pro/Assets/*.png']
