@@ -23,7 +23,7 @@
     
     Person *one = [[Person alloc] init];
     [one personJn];
-//    [one testVersion];
+    [one testVersion];
 }
 
 - (void)didReceiveMemoryWarning

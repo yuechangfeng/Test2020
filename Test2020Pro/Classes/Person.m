@@ -14,11 +14,10 @@
 }
 
 - (void)testVersion {
-    NSString *strVersion = @"版本更新 version == 0.1.0\n";
+    NSString *strVersion = @"\n\n版本更新 version == 0.1.0\n";
     strVersion = [NSString stringWithFormat:@"%@\n%@", strVersion, @"版本更新 version == 0.2.0\n"];
     strVersion = [NSString stringWithFormat:@"%@\n%@", strVersion, @"版本更新 version == 0.3.0\n"];
     strVersion = [NSString stringWithFormat:@"%@\n%@", strVersion, @"版本更新 version == 0.4.0\n"];
-    strVersion = [NSString stringWithFormat:@"%@\n%@", strVersion, @"版本更新 version == 0.5.0\n"];
     
     NSLog(@"%@", strVersion);
 }
