@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   
-  s.source_files = 'Test2020Pro/Classes/**/*.{h,m}'
+  s.source_files = 'Test2020Pro/Classes/*.{h,m}'
 #  s.subspec 'Person' do |p|
 #
 #  end
