@@ -24,8 +24,8 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '8.0'
   
-  s.source_files = 'Test2020Pro/Classes/*.{h,m}'
-  s.public_header_files = '**/*.{h}'
+#  s.source_files = 'Test2020Pro/Classes/*.{h,m}'
+#  s.public_header_files = '**/*.{h}'
   
   s.resource     = 'Test2020Pro/resources/EaseUIResource.bundle'
   
