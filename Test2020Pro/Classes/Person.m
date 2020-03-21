@@ -11,6 +11,8 @@
 
 - (void)personJn {
     NSLog(@"\n+++++++   version = 0.3.0   +++++++++++\n我能吃饭===== \n我会开车===== \n我还会写作\n");
+    
+    [self NewJn1];
 }
 
 - (void)testVersion {
@@ -20,6 +22,10 @@
     strVersion = [NSString stringWithFormat:@"%@\n%@", strVersion, @"版本更新 version == 0.4.0\n"];
     
     NSLog(@"%@", strVersion);
+}
+
+- (void)NewJn1 {
+    NSLog(@" 新技能");
 }
 
 @end
