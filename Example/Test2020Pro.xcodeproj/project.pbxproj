@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		3E7C288ACD42C847E91B3F58 /* Pods_Test2020Pro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test2020Pro_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		55FB3345E188CFE3C9FD1E8B /* ycfRepoTest0.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ycfRepoTest0.podspec; path = ../ycfRepoTest0.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		55FB3345E188CFE3C9FD1E8B /* Test2020Pro.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Test2020Pro.podspec; path = ../Test2020Pro.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* Test2020Pro_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test2020Pro_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -189,7 +189,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				55FB3345E188CFE3C9FD1E8B /* ycfRepoTest0.podspec */,
+				55FB3345E188CFE3C9FD1E8B /* Test2020Pro.podspec */,
 				CE34CACE127C4A0481D44A0C /* README.md */,
 				9DB65078652ACEDF484D35B8 /* LICENSE */,
 			);

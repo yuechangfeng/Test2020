@@ -7,12 +7,12 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ycfRepoTest0'
+  s.name             = 'Test2020Pro'
   s.version          = '0.7.0'
-  s.summary          = 'ycfRepoTest0 summary'
+  s.summary          = 'Test2020Pro summary'
   
   s.description      = <<-DESC
-  ycfRepoTest0 -- description
+  Test2020Pro -- description
   DESC
   
   s.homepage         = 'https://github.com/yuechangfeng/Test2020'
