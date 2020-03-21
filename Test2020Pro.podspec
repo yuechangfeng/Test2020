@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Test2020Pro'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'A short description of Test2020Pro.'
 
   s.description      = <<-DESC

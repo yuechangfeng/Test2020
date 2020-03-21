@@ -10,7 +10,7 @@
 @implementation Person
 
 - (void)personJn {
-    NSLog(@"\n我能吃饭===== \n我会开车===== \n我还会写作\n");
+    NSLog(@"\n+++++++   version = 0.3.0 +++++++++++\n我能吃饭===== \n我会开车===== \n我还会写作\n");
 }
 
 @end
