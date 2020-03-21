@@ -1,6 +1,6 @@
 {
   "name": "Test2020Pro",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "summary": "Test2020Pro summary",
   "description": "Test2020Pro -- description",
   "homepage": "https://github.com/yuechangfeng/Test2020",
@@ -13,14 +13,23 @@
   },
   "source": {
     "git": "https://github.com/yuechangfeng/Test2020.git",
-    "tag": "0.4.0"
+    "tag": "0.5.0"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "Test2020Pro/Classes/*.{h,m}",
+  "public_header_files": "**/*.{h}",
+  "resources": "Test2020Pro/resources/EaseUIResource.bundle",
   "frameworks": [
     "UIKit",
     "Foundation"
+  ],
+  "subspecs": [
+    {
+      "name": "YCFDIY",
+      "source_files": "Test2020Pro/YCFDIY/Classes/**/*.{h,m}",
+      "resources": "Test2020Pro/YCFDIY/Resources/NHIMDIYModule.bundle"
+    }
   ]
 }

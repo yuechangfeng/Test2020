@@ -10,6 +10,13 @@
 #endif
 #endif
 
+#import "Pods-Test2020Pro_Example-umbrella.h"
+#import "Pods-Test2020Pro_Tests-umbrella.h"
+#import "Test2020Pro-umbrella.h"
+#import "YCFAppDelegate.h"
+#import "YCFViewController.h"
+#import "AAHeader.h"
+#import "Person.h"
 #import "AAHeader.h"
 #import "Person.h"
 

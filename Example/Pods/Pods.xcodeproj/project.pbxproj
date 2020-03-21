@@ -10,16 +10,18 @@
 		133E9841B488B84BAA0D834775709FEF /* Pods-Test2020Pro_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A230AF6C6EA01770FA9E10F50982F /* Pods-Test2020Pro_Example-dummy.m */; };
 		16986AE82D79B6C2A2D35B01966720A9 /* Pods-Test2020Pro_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE52CB5EF11A6186B0AB90B51FD2BDD2 /* Pods-Test2020Pro_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EBBE5F99D2DCDE5BEC33F4C31877AD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		51F68111093977825C5FE43E103065FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		53DAA40296E52B3F47EACB75E842FBB1 /* Test2020Pro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4753EE2DFE9EEFCC9EE20441DAEC9E3E /* Test2020Pro-dummy.m */; };
+		5853463022B55501A4827EAA79145DC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		68D9F8608BB1A15D9D6994CEFD2CB5C7 /* EaseUIResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F89CA4CB545B2601C5400AB4792AC20D /* EaseUIResource.bundle */; };
+		6C7738BA970C59FD4F645DCFF5BB4EC9 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = D056E79155B7848CE105C3A5B93D64F9 /* Person.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E25472248E2E1E8EE7801F798B1577F /* AAHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C7BB4D90D25743861AA5F174D9D33EB2 /* AAHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6F7C87FA1974DB2370C4E42D130750A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		75490EC3CC753827933F688AC6A146B0 /* Test2020Pro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 393E201EBE236BDA57D91521CFE3C5D7 /* Test2020Pro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BF771D69039769CE5945D426BAA56DE /* Pods-Test2020Pro_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E096F1AADBBE48803A9BF6D7B255A601 /* Pods-Test2020Pro_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A26CBB2E6F686F6D4EE52E60DC8CA68B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
-		AB5E4F5504487DCA4B274F59D22975DD /* AAHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 06042DC137772AF231CEAB36FE78E83E /* AAHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA1F881E6BF40ECD0655D898877CDFDA /* Test2020Pro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6985CD0BB949CFB55953B8AE321F136 /* Test2020Pro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D58C7CE15315B749931D130392156255 /* Test2020Pro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA6E7BBAE02C6505E7AFE19437381C8 /* Test2020Pro-dummy.m */; };
+		9867B08E8A3219F5790DA11F961E359B /* NHIMDIYModule.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 27E259478D9D8D27A8018785E3F5B665 /* NHIMDIYModule.bundle */; };
+		A8DE302EE35CCA2FF5EE4842DA8C5198 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
 		DA35ECE35B7A156DD67B57AB2C68B6ED /* Pods-Test2020Pro_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E2548692F6D55C61801D25EC68E535 /* Pods-Test2020Pro_Tests-dummy.m */; };
-		DBB763202425E726009582A4 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = DBB7631E2425E726009582A4 /* Person.h */; };
-		DBB763212425E726009582A4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB7631F2425E726009582A4 /* Person.m */; };
+		FB015E0A810E1125A1283F9C011E57F0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 866DACE9F131DC2A41B021CB6B297AC0 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,41 +42,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06042DC137772AF231CEAB36FE78E83E /* AAHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAHeader.h; path = Test2020Pro/Classes/AAHeader.h; sourceTree = "<group>"; };
-		095A73D6FDEE99A1062A76C637CDDDEC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		02DBB7A3E3ECE1BFBA5E717D24605B34 /* Test2020Pro-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Test2020Pro-prefix.pch"; sourceTree = "<group>"; };
 		0DD6F20D0193AEE01339D488410FCC6C /* Pods-Test2020Pro_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Test2020Pro_Example-frameworks.sh"; sourceTree = "<group>"; };
-		12BA5EB4A16990C8D9959D10B9F973AD /* Test2020Pro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Test2020Pro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12BA5EB4A16990C8D9959D10B9F973AD /* Test2020Pro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Test2020Pro.framework; path = Test2020Pro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		252FCFDD5B3F764960C4675E912844EA /* Pods-Test2020Pro_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test2020Pro_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2CFD282CF1E9564933970407DEC08BE1 /* Pods_Test2020Pro_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test2020Pro_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E259478D9D8D27A8018785E3F5B665 /* NHIMDIYModule.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = NHIMDIYModule.bundle; path = Test2020Pro/YCFDIY/Resources/NHIMDIYModule.bundle; sourceTree = "<group>"; };
+		2B9101CA4B5951F984D7DDBCC408D1BA /* Test2020Pro.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Test2020Pro.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2CFD282CF1E9564933970407DEC08BE1 /* Pods_Test2020Pro_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Test2020Pro_Tests.framework; path = "Pods-Test2020Pro_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		37DCBE73D4A021868CCDE7C4464DBCEC /* Test2020Pro.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Test2020Pro.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		393E201EBE236BDA57D91521CFE3C5D7 /* Test2020Pro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Test2020Pro-umbrella.h"; sourceTree = "<group>"; };
 		3B0DC821FDC83767222327ED81D8FECC /* Pods-Test2020Pro_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Test2020Pro_Tests.modulemap"; sourceTree = "<group>"; };
 		429834968524075597A83EAC857DFD6D /* Pods-Test2020Pro_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test2020Pro_Example-Info.plist"; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4753EE2DFE9EEFCC9EE20441DAEC9E3E /* Test2020Pro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Test2020Pro-dummy.m"; sourceTree = "<group>"; };
 		48B4B3A7183AD667A43D2878505273B1 /* Pods-Test2020Pro_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Test2020Pro_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		523B7BAFC47B73700C6E256A98492A1E /* Pods-Test2020Pro_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test2020Pro_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		570A230AF6C6EA01770FA9E10F50982F /* Pods-Test2020Pro_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Test2020Pro_Example-dummy.m"; sourceTree = "<group>"; };
 		591D97EA2CA58259C80C06A0688EE708 /* Pods-Test2020Pro_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test2020Pro_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5B98663D364A17A970C639FCD66871E5 /* Test2020Pro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Test2020Pro.modulemap; sourceTree = "<group>"; };
 		71B4981C0DE7D0CC00420D8B371F0F0D /* Pods-Test2020Pro_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test2020Pro_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		753A9D30B7A52DABABE4F19174CA1B33 /* Pods-Test2020Pro_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Test2020Pro_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8057959CD5586C0330E20AE3B6F6812A /* Pods_Test2020Pro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test2020Pro_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8057959CD5586C0330E20AE3B6F6812A /* Pods_Test2020Pro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Test2020Pro_Example.framework; path = "Pods-Test2020Pro_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		866DACE9F131DC2A41B021CB6B297AC0 /* Person.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		98EFB9B7B89623AF6FD675BFFDEA5BFC /* Pods-Test2020Pro_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test2020Pro_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AD8A07DCBC4B06ABCC648A5706A9192 /* Test2020Pro-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Test2020Pro-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0486BDF8DF4C968FC9C3125A5A9EA83 /* Pods-Test2020Pro_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test2020Pro_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A4E4DE55032163A30965CAC15B39E3DD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		A6985CD0BB949CFB55953B8AE321F136 /* Test2020Pro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Test2020Pro-umbrella.h"; sourceTree = "<group>"; };
+		B0D6A7A20C522EAB3A6D06FBBEC19824 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B23A68C585258B9F884C253E8B234516 /* Pods-Test2020Pro_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test2020Pro_Tests-Info.plist"; sourceTree = "<group>"; };
-		B4FBFB57D96D47E91AD70EF78DD6DBEB /* Test2020Pro-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Test2020Pro-Info.plist"; sourceTree = "<group>"; };
-		C7AF12AFF3AD8D2836E121EE4C496184 /* Test2020Pro-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Test2020Pro-prefix.pch"; sourceTree = "<group>"; };
+		C7BB4D90D25743861AA5F174D9D33EB2 /* AAHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAHeader.h; path = Test2020Pro/YCFDIY/Classes/AAHeader.h; sourceTree = "<group>"; };
 		CCE81C17B5139D81626069FFA1DE2A23 /* Pods-Test2020Pro_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Test2020Pro_Example.modulemap"; sourceTree = "<group>"; };
 		CE52CB5EF11A6186B0AB90B51FD2BDD2 /* Pods-Test2020Pro_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Test2020Pro_Example-umbrella.h"; sourceTree = "<group>"; };
-		DBB7631E2425E726009582A4 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		DBB7631F2425E726009582A4 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		CF528BA15C110E7FDC3D9943780CF67A /* Test2020Pro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Test2020Pro.modulemap; sourceTree = "<group>"; };
+		CFF9EA6BDE47CBE0CDC3F67EA1941A69 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D056E79155B7848CE105C3A5B93D64F9 /* Person.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DF3C30F85EA391B89C1AA89E6DCF23F7 /* Test2020Pro.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Test2020Pro.xcconfig; sourceTree = "<group>"; };
 		E096F1AADBBE48803A9BF6D7B255A601 /* Pods-Test2020Pro_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Test2020Pro_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EFA6E7BBAE02C6505E7AFE19437381C8 /* Test2020Pro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Test2020Pro-dummy.m"; sourceTree = "<group>"; };
 		F4E2548692F6D55C61801D25EC68E535 /* Pods-Test2020Pro_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Test2020Pro_Tests-dummy.m"; sourceTree = "<group>"; };
-		FFC8BF1E8E78ACA11C9434FDBB9E970C /* Test2020Pro.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Test2020Pro.xcconfig; sourceTree = "<group>"; };
+		F89CA4CB545B2601C5400AB4792AC20D /* EaseUIResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = EaseUIResource.bundle; path = Test2020Pro/resources/EaseUIResource.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A391D15FA50A2CE540F55A64FD2D4EC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5853463022B55501A4827EAA79145DC9 /* Foundation.framework in Frameworks */,
+				A8DE302EE35CCA2FF5EE4842DA8C5198 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E38897551CF99EED8413737C33CAD360 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -94,38 +107,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8585B561B4F320C2B42941F881372B9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				51F68111093977825C5FE43E103065FA /* Foundation.framework in Frameworks */,
-				A26CBB2E6F686F6D4EE52E60DC8CA68B /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06122D255CFC392974F731BA04019A03 /* Persion */ = {
+			isa = PBXGroup;
+			children = (
+				D056E79155B7848CE105C3A5B93D64F9 /* Person.h */,
+				866DACE9F131DC2A41B021CB6B297AC0 /* Person.m */,
+			);
+			name = Persion;
+			path = Test2020Pro/YCFDIY/Classes/Persion;
+			sourceTree = "<group>";
+		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2BA02CBBE121E01A2065F2CBAB12343C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5B98663D364A17A970C639FCD66871E5 /* Test2020Pro.modulemap */,
-				FFC8BF1E8E78ACA11C9434FDBB9E970C /* Test2020Pro.xcconfig */,
-				EFA6E7BBAE02C6505E7AFE19437381C8 /* Test2020Pro-dummy.m */,
-				B4FBFB57D96D47E91AD70EF78DD6DBEB /* Test2020Pro-Info.plist */,
-				C7AF12AFF3AD8D2836E121EE4C496184 /* Test2020Pro-prefix.pch */,
-				A6985CD0BB949CFB55953B8AE321F136 /* Test2020Pro-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Test2020Pro";
 			sourceTree = "<group>";
 		};
 		409FB0E5F24172C860D32106A4CF2248 /* Pods-Test2020Pro_Tests */ = {
@@ -144,24 +144,50 @@
 			path = "Target Support Files/Pods-Test2020Pro_Tests";
 			sourceTree = "<group>";
 		};
-		8EA8EA4311FAA5F4C050F1C4538CA4C0 /* Development Pods */ = {
+		4C45C7A79D90DFE8DE07DCB7627F9991 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A3C19FF328D79958A07905F4BD2AC09A /* Test2020Pro */,
+				CFF9EA6BDE47CBE0CDC3F67EA1941A69 /* LICENSE */,
+				B0D6A7A20C522EAB3A6D06FBBEC19824 /* README.md */,
+				2B9101CA4B5951F984D7DDBCC408D1BA /* Test2020Pro.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5B49E5C6C2CB903400C0B85F74625AF9 /* Test2020Pro */ = {
+			isa = PBXGroup;
+			children = (
+				4C45C7A79D90DFE8DE07DCB7627F9991 /* Pod */,
+				98CAC3DEFADC77E2431FE5E1535BE1C9 /* Resources */,
+				C86CC1FA36FC66F3B7E8B669EB10655F /* Support Files */,
+				CA9F46836C93391A7C33F491DBBD1C65 /* YCFDIY */,
+			);
+			name = Test2020Pro;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8AEDD14FA72C5F067AA67211147B53A7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B49E5C6C2CB903400C0B85F74625AF9 /* Test2020Pro */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		A3C19FF328D79958A07905F4BD2AC09A /* Test2020Pro */ = {
+		8E153FC1CE96428DBF9B329F8CDEC7D8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				06042DC137772AF231CEAB36FE78E83E /* AAHeader.h */,
-				DBB7631D2425E726009582A4 /* Persion */,
-				D03F85187ABB54D352B5A207C5ADC1FA /* Pod */,
-				2BA02CBBE121E01A2065F2CBAB12343C /* Support Files */,
+				27E259478D9D8D27A8018785E3F5B665 /* NHIMDIYModule.bundle */,
 			);
-			name = Test2020Pro;
-			path = ../..;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		98CAC3DEFADC77E2431FE5E1535BE1C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F89CA4CB545B2601C5400AB4792AC20D /* EaseUIResource.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		AD9C8D0AA1B6CA7AECA1DDA740BF56BF /* Pods-Test2020Pro_Example */ = {
@@ -181,6 +207,30 @@
 			path = "Target Support Files/Pods-Test2020Pro_Example";
 			sourceTree = "<group>";
 		};
+		C86CC1FA36FC66F3B7E8B669EB10655F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF528BA15C110E7FDC3D9943780CF67A /* Test2020Pro.modulemap */,
+				DF3C30F85EA391B89C1AA89E6DCF23F7 /* Test2020Pro.xcconfig */,
+				4753EE2DFE9EEFCC9EE20441DAEC9E3E /* Test2020Pro-dummy.m */,
+				9AD8A07DCBC4B06ABCC648A5706A9192 /* Test2020Pro-Info.plist */,
+				02DBB7A3E3ECE1BFBA5E717D24605B34 /* Test2020Pro-prefix.pch */,
+				393E201EBE236BDA57D91521CFE3C5D7 /* Test2020Pro-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Test2020Pro";
+			sourceTree = "<group>";
+		};
+		CA9F46836C93391A7C33F491DBBD1C65 /* YCFDIY */ = {
+			isa = PBXGroup;
+			children = (
+				C7BB4D90D25743861AA5F174D9D33EB2 /* AAHeader.h */,
+				06122D255CFC392974F731BA04019A03 /* Persion */,
+				8E153FC1CE96428DBF9B329F8CDEC7D8 /* Resources */,
+			);
+			name = YCFDIY;
+			sourceTree = "<group>";
+		};
 		CE2790BDC86A9319F7FFA8B92DAB10AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,31 +245,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8EA8EA4311FAA5F4C050F1C4538CA4C0 /* Development Pods */,
+				8AEDD14FA72C5F067AA67211147B53A7 /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				CE2790BDC86A9319F7FFA8B92DAB10AA /* Products */,
 				E7D1E5AED53F9C9E3D8E6E1418F42596 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D03F85187ABB54D352B5A207C5ADC1FA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A4E4DE55032163A30965CAC15B39E3DD /* LICENSE */,
-				095A73D6FDEE99A1062A76C637CDDDEC /* README.md */,
-				37DCBE73D4A021868CCDE7C4464DBCEC /* Test2020Pro.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		DBB7631D2425E726009582A4 /* Persion */ = {
-			isa = PBXGroup;
-			children = (
-				DBB7631E2425E726009582A4 /* Person.h */,
-				DBB7631F2425E726009582A4 /* Person.m */,
-			);
-			name = Persion;
-			path = Test2020Pro/Classes/Persion;
 			sourceTree = "<group>";
 		};
 		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
@@ -251,12 +281,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6116261AC7BC343EB7194FD0B3D8E7BB /* Headers */ = {
+		5F30DC15B5C3223FE89544451D45B904 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB5E4F5504487DCA4B274F59D22975DD /* AAHeader.h in Headers */,
-				CA1F881E6BF40ECD0655D898877CDFDA /* Test2020Pro-umbrella.h in Headers */,
+				6E25472248E2E1E8EE7801F798B1577F /* AAHeader.h in Headers */,
+				6C7738BA970C59FD4F645DCFF5BB4EC9 /* Person.h in Headers */,
+				75490EC3CC753827933F688AC6A146B0 /* Test2020Pro-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +296,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				16986AE82D79B6C2A2D35B01966720A9 /* Pods-Test2020Pro_Example-umbrella.h in Headers */,
-				DBB763202425E726009582A4 /* Person.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,12 +304,12 @@
 /* Begin PBXNativeTarget section */
 		555BB0F7B413AA4305A2C031AAD69BF9 /* Test2020Pro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A97DD0DEF532ED34E0F75150EAE7F544 /* Build configuration list for PBXNativeTarget "Test2020Pro" */;
+			buildConfigurationList = 05B1A876AB66A0C4A678021B79CA7E1C /* Build configuration list for PBXNativeTarget "Test2020Pro" */;
 			buildPhases = (
-				6116261AC7BC343EB7194FD0B3D8E7BB /* Headers */,
-				964FF701FB72BBACFAFF3013C9D48305 /* Sources */,
-				E8585B561B4F320C2B42941F881372B9 /* Frameworks */,
-				214FF8CA3E2401ABB896F444A6BB804A /* Resources */,
+				5F30DC15B5C3223FE89544451D45B904 /* Headers */,
+				9C29CC2F0C21B22A7EFC59A0974F864D /* Sources */,
+				A391D15FA50A2CE540F55A64FD2D4EC9 /* Frameworks */,
+				64C51B16A83B7D3BDBF74F9B61591231 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -358,10 +388,12 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		214FF8CA3E2401ABB896F444A6BB804A /* Resources */ = {
+		64C51B16A83B7D3BDBF74F9B61591231 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68D9F8608BB1A15D9D6994CEFD2CB5C7 /* EaseUIResource.bundle in Resources */,
+				9867B08E8A3219F5790DA11F961E359B /* NHIMDIYModule.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,11 +422,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		964FF701FB72BBACFAFF3013C9D48305 /* Sources */ = {
+		9C29CC2F0C21B22A7EFC59A0974F864D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D58C7CE15315B749931D130392156255 /* Test2020Pro-dummy.m in Sources */,
+				FB015E0A810E1125A1283F9C011E57F0 /* Person.m in Sources */,
+				53DAA40296E52B3F47EACB75E842FBB1 /* Test2020Pro-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +435,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBB763212425E726009582A4 /* Person.m in Sources */,
 				133E9841B488B84BAA0D834775709FEF /* Pods-Test2020Pro_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,9 +457,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		08D15728FEBD356447CCDECF44334DDC /* Release */ = {
+		42A6BFCF48F5681EA84297416CDB89AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFC8BF1E8E78ACA11C9434FDBB9E970C /* Test2020Pro.xcconfig */;
+			baseConfigurationReference = DF3C30F85EA391B89C1AA89E6DCF23F7 /* Test2020Pro.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -544,7 +576,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -714,9 +747,9 @@
 			};
 			name = Debug;
 		};
-		FD0CB20A908F6A2D50862EF83D3774B9 /* Debug */ = {
+		FF591BA6BE0FD4E7A8E1382076F26369 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFC8BF1E8E78ACA11C9434FDBB9E970C /* Test2020Pro.xcconfig */;
+			baseConfigurationReference = DF3C30F85EA391B89C1AA89E6DCF23F7 /* Test2020Pro.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -748,6 +781,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		05B1A876AB66A0C4A678021B79CA7E1C /* Build configuration list for PBXNativeTarget "Test2020Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF591BA6BE0FD4E7A8E1382076F26369 /* Debug */,
+				42A6BFCF48F5681EA84297416CDB89AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -771,15 +813,6 @@
 			buildConfigurations = (
 				BA3D4A9274A68D9884DC15C12B8AC8A6 /* Debug */,
 				487718DDC335D7229DD4CF52F76EC27D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A97DD0DEF532ED34E0F75150EAE7F544 /* Build configuration list for PBXNativeTarget "Test2020Pro" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FD0CB20A908F6A2D50862EF83D3774B9 /* Debug */,
-				08D15728FEBD356447CCDECF44334DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
