@@ -1,8 +1,8 @@
 {
   "name": "Test2020Pro",
-  "version": "0.2.0",
-  "summary": "A short description of Test2020Pro.",
-  "description": "Test2020Pro 123456vfd 的反馈",
+  "version": "0.4.0",
+  "summary": "Test2020Pro summary",
+  "description": "Test2020Pro -- description",
   "homepage": "https://github.com/yuechangfeng/Test2020",
   "license": {
     "type": "MIT",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/yuechangfeng/Test2020.git",
-    "tag": "0.2.0"
+    "tag": "0.4.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Test2020Pro/Classes/**/*.{h,m}",
+  "source_files": "Test2020Pro/Classes/*.{h,m}",
   "frameworks": [
     "UIKit",
     "Foundation"

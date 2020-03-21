@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)personJn;
 
+- (void)testVersion;
+
 @end
 
 NS_ASSUME_NONNULL_END
