@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		133E9841B488B84BAA0D834775709FEF /* Pods-Test2020Pro_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A230AF6C6EA01770FA9E10F50982F /* Pods-Test2020Pro_Example-dummy.m */; };
-		16986AE82D79B6C2A2D35B01966720A9 /* Pods-Test2020Pro_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE52CB5EF11A6186B0AB90B51FD2BDD2 /* Pods-Test2020Pro_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27EECF4BA60243CF721D4F412166F049 /* ycfRepoTest0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E0B2CA7ACC3C98A383C40822CA9DC22 /* ycfRepoTest0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FE0BAB95B133600DE1ECDC52A8E6DC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		31D4513610E921299F36001E60E092CB /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = D866B946BD2049BDC112CB9F3DFA06F1 /* Person.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38A04EBA350949F7D5FBB212DD2B326C /* ycfRepoTest0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAADB97125B6B28E83303AB6E87CB0A /* ycfRepoTest0-dummy.m */; };
+		423AB029EEAA5FDEBCCC99BCC6E48886 /* AAHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EE7B0D322B3F81927A3C5DAC6705E48 /* AAHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EBBE5F99D2DCDE5BEC33F4C31877AD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		53DAA40296E52B3F47EACB75E842FBB1 /* Test2020Pro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4753EE2DFE9EEFCC9EE20441DAEC9E3E /* Test2020Pro-dummy.m */; };
-		5853463022B55501A4827EAA79145DC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		68D9F8608BB1A15D9D6994CEFD2CB5C7 /* EaseUIResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F89CA4CB545B2601C5400AB4792AC20D /* EaseUIResource.bundle */; };
-		6C7738BA970C59FD4F645DCFF5BB4EC9 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = D056E79155B7848CE105C3A5B93D64F9 /* Person.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E25472248E2E1E8EE7801F798B1577F /* AAHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C7BB4D90D25743861AA5F174D9D33EB2 /* AAHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F7C87FA1974DB2370C4E42D130750A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		75490EC3CC753827933F688AC6A146B0 /* Test2020Pro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 393E201EBE236BDA57D91521CFE3C5D7 /* Test2020Pro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52F02A3798636CEEE7EE66C872AF13CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
 		8BF771D69039769CE5945D426BAA56DE /* Pods-Test2020Pro_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E096F1AADBBE48803A9BF6D7B255A601 /* Pods-Test2020Pro_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9867B08E8A3219F5790DA11F961E359B /* NHIMDIYModule.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 27E259478D9D8D27A8018785E3F5B665 /* NHIMDIYModule.bundle */; };
-		A8DE302EE35CCA2FF5EE4842DA8C5198 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		97484A2E1A2D07B0006C82532DDDFB3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		9B1B9B219425305F8D9931A8DF0FB51D /* Pods-Test2020Pro_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE52CB5EF11A6186B0AB90B51FD2BDD2 /* Pods-Test2020Pro_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C692EEAFEC6387B414F27C3EE583C90E /* EaseUIResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7BC2CAA6353B3E25B1410D55C89ADB27 /* EaseUIResource.bundle */; };
+		C96E97A214C49A50BB8CB6EB04A830F5 /* NHIMDIYModule.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 799FF6C542B07B6C374940FC70FB9CD0 /* NHIMDIYModule.bundle */; };
+		CC7B66B08261505A0091CD6CCF45194D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A4540FA584E452B80B14D01CB5A8F5C8 /* Person.m */; };
+		CFEA3F857907F905E752DE7696C40133 /* Pods-Test2020Pro_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 570A230AF6C6EA01770FA9E10F50982F /* Pods-Test2020Pro_Example-dummy.m */; };
 		DA35ECE35B7A156DD67B57AB2C68B6ED /* Pods-Test2020Pro_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4E2548692F6D55C61801D25EC68E535 /* Pods-Test2020Pro_Tests-dummy.m */; };
-		FB015E0A810E1125A1283F9C011E57F0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 866DACE9F131DC2A41B021CB6B297AC0 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,70 +32,70 @@
 			remoteGlobalIDString = F6352408F05E29476BA923C079240169;
 			remoteInfo = "Pods-Test2020Pro_Example";
 		};
-		E3B25AC95CF35DDF7E7AC237D5D8ED64 /* PBXContainerItemProxy */ = {
+		8B544A3A11CF37317F28232CC725720B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 555BB0F7B413AA4305A2C031AAD69BF9;
-			remoteInfo = Test2020Pro;
+			remoteGlobalIDString = B43E44FDE7EE3CD654771743FCEC76F0;
+			remoteInfo = ycfRepoTest0;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02DBB7A3E3ECE1BFBA5E717D24605B34 /* Test2020Pro-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Test2020Pro-prefix.pch"; sourceTree = "<group>"; };
 		0DD6F20D0193AEE01339D488410FCC6C /* Pods-Test2020Pro_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Test2020Pro_Example-frameworks.sh"; sourceTree = "<group>"; };
-		12BA5EB4A16990C8D9959D10B9F973AD /* Test2020Pro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Test2020Pro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD7F1026A5A7572A60B5CB62F8D9919 /* ycfRepoTest0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ycfRepoTest0.framework; path = ycfRepoTest0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20803EEF7BECB3FC3A051EAAFF23D33F /* ycfRepoTest0-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ycfRepoTest0-Info.plist"; sourceTree = "<group>"; };
 		252FCFDD5B3F764960C4675E912844EA /* Pods-Test2020Pro_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test2020Pro_Example.release.xcconfig"; sourceTree = "<group>"; };
-		27E259478D9D8D27A8018785E3F5B665 /* NHIMDIYModule.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = NHIMDIYModule.bundle; path = Test2020Pro/YCFDIY/Resources/NHIMDIYModule.bundle; sourceTree = "<group>"; };
-		2B9101CA4B5951F984D7DDBCC408D1BA /* ycfRepoTest0.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ycfRepoTest0.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2CFD282CF1E9564933970407DEC08BE1 /* Pods_Test2020Pro_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test2020Pro_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CFD282CF1E9564933970407DEC08BE1 /* Pods_Test2020Pro_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Test2020Pro_Tests.framework; path = "Pods-Test2020Pro_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		393E201EBE236BDA57D91521CFE3C5D7 /* Test2020Pro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Test2020Pro-umbrella.h"; sourceTree = "<group>"; };
 		3B0DC821FDC83767222327ED81D8FECC /* Pods-Test2020Pro_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Test2020Pro_Tests.modulemap"; sourceTree = "<group>"; };
 		429834968524075597A83EAC857DFD6D /* Pods-Test2020Pro_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test2020Pro_Example-Info.plist"; sourceTree = "<group>"; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4753EE2DFE9EEFCC9EE20441DAEC9E3E /* Test2020Pro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Test2020Pro-dummy.m"; sourceTree = "<group>"; };
 		48B4B3A7183AD667A43D2878505273B1 /* Pods-Test2020Pro_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Test2020Pro_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		523B7BAFC47B73700C6E256A98492A1E /* Pods-Test2020Pro_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test2020Pro_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		570A230AF6C6EA01770FA9E10F50982F /* Pods-Test2020Pro_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Test2020Pro_Example-dummy.m"; sourceTree = "<group>"; };
 		591D97EA2CA58259C80C06A0688EE708 /* Pods-Test2020Pro_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test2020Pro_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5EE7B0D322B3F81927A3C5DAC6705E48 /* AAHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAHeader.h; path = Test2020Pro/YCFDIY/Classes/AAHeader.h; sourceTree = "<group>"; };
+		654A53944AF25B732D51251A1F811DBA /* ycfRepoTest0.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ycfRepoTest0.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6F721BAADA048D8E2B618A9942F48454 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		71B4981C0DE7D0CC00420D8B371F0F0D /* Pods-Test2020Pro_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test2020Pro_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		753A9D30B7A52DABABE4F19174CA1B33 /* Pods-Test2020Pro_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Test2020Pro_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8057959CD5586C0330E20AE3B6F6812A /* Pods_Test2020Pro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test2020Pro_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		866DACE9F131DC2A41B021CB6B297AC0 /* Person.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		799FF6C542B07B6C374940FC70FB9CD0 /* NHIMDIYModule.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = NHIMDIYModule.bundle; path = Test2020Pro/YCFDIY/Resources/NHIMDIYModule.bundle; sourceTree = "<group>"; };
+		7BC2CAA6353B3E25B1410D55C89ADB27 /* EaseUIResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = EaseUIResource.bundle; path = Test2020Pro/resources/EaseUIResource.bundle; sourceTree = "<group>"; };
+		7E0B2CA7ACC3C98A383C40822CA9DC22 /* ycfRepoTest0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ycfRepoTest0-umbrella.h"; sourceTree = "<group>"; };
+		8057959CD5586C0330E20AE3B6F6812A /* Pods_Test2020Pro_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Test2020Pro_Example.framework; path = "Pods-Test2020Pro_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91EDE6A5328DFAE7465F1552BE1A04F3 /* ycfRepoTest0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ycfRepoTest0-prefix.pch"; sourceTree = "<group>"; };
 		98EFB9B7B89623AF6FD675BFFDEA5BFC /* Pods-Test2020Pro_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test2020Pro_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9AD8A07DCBC4B06ABCC648A5706A9192 /* Test2020Pro-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Test2020Pro-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DAADB97125B6B28E83303AB6E87CB0A /* ycfRepoTest0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ycfRepoTest0-dummy.m"; sourceTree = "<group>"; };
 		A0486BDF8DF4C968FC9C3125A5A9EA83 /* Pods-Test2020Pro_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test2020Pro_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B0D6A7A20C522EAB3A6D06FBBEC19824 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A4540FA584E452B80B14D01CB5A8F5C8 /* Person.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		B23A68C585258B9F884C253E8B234516 /* Pods-Test2020Pro_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test2020Pro_Tests-Info.plist"; sourceTree = "<group>"; };
-		C7BB4D90D25743861AA5F174D9D33EB2 /* AAHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AAHeader.h; path = Test2020Pro/YCFDIY/Classes/AAHeader.h; sourceTree = "<group>"; };
+		BE3CB2B25535DF8EDBE8F4B3593C5C5C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C7DDE7D876FB47BD58DE64E338FA3E64 /* ycfRepoTest0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ycfRepoTest0.xcconfig; sourceTree = "<group>"; };
 		CCE81C17B5139D81626069FFA1DE2A23 /* Pods-Test2020Pro_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Test2020Pro_Example.modulemap"; sourceTree = "<group>"; };
 		CE52CB5EF11A6186B0AB90B51FD2BDD2 /* Pods-Test2020Pro_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Test2020Pro_Example-umbrella.h"; sourceTree = "<group>"; };
-		CF528BA15C110E7FDC3D9943780CF67A /* Test2020Pro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Test2020Pro.modulemap; sourceTree = "<group>"; };
-		CFF9EA6BDE47CBE0CDC3F67EA1941A69 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		D056E79155B7848CE105C3A5B93D64F9 /* Person.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		DF3C30F85EA391B89C1AA89E6DCF23F7 /* Test2020Pro.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Test2020Pro.xcconfig; sourceTree = "<group>"; };
+		D36B6263B8A9C98E99D02342CD6B9E54 /* ycfRepoTest0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ycfRepoTest0.modulemap; sourceTree = "<group>"; };
+		D866B946BD2049BDC112CB9F3DFA06F1 /* Person.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		E096F1AADBBE48803A9BF6D7B255A601 /* Pods-Test2020Pro_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Test2020Pro_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F4E2548692F6D55C61801D25EC68E535 /* Pods-Test2020Pro_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Test2020Pro_Tests-dummy.m"; sourceTree = "<group>"; };
-		F89CA4CB545B2601C5400AB4792AC20D /* EaseUIResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = EaseUIResource.bundle; path = Test2020Pro/resources/EaseUIResource.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		66E61938E08E6B660A1B1912D62C215C /* Frameworks */ = {
+		0872808B34B53F89F04525E4703A9497 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F7C87FA1974DB2370C4E42D130750A7 /* Foundation.framework in Frameworks */,
+				97484A2E1A2D07B0006C82532DDDFB3F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A391D15FA50A2CE540F55A64FD2D4EC9 /* Frameworks */ = {
+		8BBB620228E77EFA37E861C5D8FCBD4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5853463022B55501A4827EAA79145DC9 /* Foundation.framework in Frameworks */,
-				A8DE302EE35CCA2FF5EE4842DA8C5198 /* UIKit.framework in Frameworks */,
+				2FE0BAB95B133600DE1ECDC52A8E6DC9 /* Foundation.framework in Frameworks */,
+				52F02A3798636CEEE7EE66C872AF13CE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,22 +110,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06122D255CFC392974F731BA04019A03 /* Persion */ = {
-			isa = PBXGroup;
-			children = (
-				D056E79155B7848CE105C3A5B93D64F9 /* Person.h */,
-				866DACE9F131DC2A41B021CB6B297AC0 /* Person.m */,
-			);
-			name = Persion;
-			path = Test2020Pro/YCFDIY/Classes/Persion;
-			sourceTree = "<group>";
-		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EF4AF4822B0179B99FBBF3AF44102DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8057959CD5586C0330E20AE3B6F6812A /* Pods_Test2020Pro_Example.framework */,
+				2CFD282CF1E9564933970407DEC08BE1 /* Pods_Test2020Pro_Tests.framework */,
+				1FD7F1026A5A7572A60B5CB62F8D9919 /* ycfRepoTest0.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32979D3E9F5854BD5A042D15BCA4A3AE /* YCFDIY */ = {
+			isa = PBXGroup;
+			children = (
+				5EE7B0D322B3F81927A3C5DAC6705E48 /* AAHeader.h */,
+				83E4273331FB52E2765148539A881003 /* Persion */,
+				AD73814EF4C1DB70ADF67BEC1FBB4605 /* Resources */,
+			);
+			name = YCFDIY;
 			sourceTree = "<group>";
 		};
 		409FB0E5F24172C860D32106A4CF2248 /* Pods-Test2020Pro_Tests */ = {
@@ -144,48 +154,28 @@
 			path = "Target Support Files/Pods-Test2020Pro_Tests";
 			sourceTree = "<group>";
 		};
-		4C45C7A79D90DFE8DE07DCB7627F9991 /* Pod */ = {
+		77CBC0E98FCC793F3F41038161945338 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CFF9EA6BDE47CBE0CDC3F67EA1941A69 /* LICENSE */,
-				B0D6A7A20C522EAB3A6D06FBBEC19824 /* README.md */,
-				2B9101CA4B5951F984D7DDBCC408D1BA /* ycfRepoTest0.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		5B49E5C6C2CB903400C0B85F74625AF9 /* Test2020Pro */ = {
-			isa = PBXGroup;
-			children = (
-				4C45C7A79D90DFE8DE07DCB7627F9991 /* Pod */,
-				98CAC3DEFADC77E2431FE5E1535BE1C9 /* Resources */,
-				C86CC1FA36FC66F3B7E8B669EB10655F /* Support Files */,
-				CA9F46836C93391A7C33F491DBBD1C65 /* YCFDIY */,
-			);
-			name = Test2020Pro;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		8AEDD14FA72C5F067AA67211147B53A7 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5B49E5C6C2CB903400C0B85F74625AF9 /* Test2020Pro */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		8E153FC1CE96428DBF9B329F8CDEC7D8 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				27E259478D9D8D27A8018785E3F5B665 /* NHIMDIYModule.bundle */,
+				7BC2CAA6353B3E25B1410D55C89ADB27 /* EaseUIResource.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		98CAC3DEFADC77E2431FE5E1535BE1C9 /* Resources */ = {
+		83E4273331FB52E2765148539A881003 /* Persion */ = {
 			isa = PBXGroup;
 			children = (
-				F89CA4CB545B2601C5400AB4792AC20D /* EaseUIResource.bundle */,
+				D866B946BD2049BDC112CB9F3DFA06F1 /* Person.h */,
+				A4540FA584E452B80B14D01CB5A8F5C8 /* Person.m */,
+			);
+			name = Persion;
+			path = Test2020Pro/YCFDIY/Classes/Persion;
+			sourceTree = "<group>";
+		};
+		AD73814EF4C1DB70ADF67BEC1FBB4605 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				799FF6C542B07B6C374940FC70FB9CD0 /* NHIMDIYModule.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -207,49 +197,59 @@
 			path = "Target Support Files/Pods-Test2020Pro_Example";
 			sourceTree = "<group>";
 		};
-		C86CC1FA36FC66F3B7E8B669EB10655F /* Support Files */ = {
+		B5FE4DFDC615A052EDF2832E7F1F97DE /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CF528BA15C110E7FDC3D9943780CF67A /* Test2020Pro.modulemap */,
-				DF3C30F85EA391B89C1AA89E6DCF23F7 /* Test2020Pro.xcconfig */,
-				4753EE2DFE9EEFCC9EE20441DAEC9E3E /* Test2020Pro-dummy.m */,
-				9AD8A07DCBC4B06ABCC648A5706A9192 /* Test2020Pro-Info.plist */,
-				02DBB7A3E3ECE1BFBA5E717D24605B34 /* Test2020Pro-prefix.pch */,
-				393E201EBE236BDA57D91521CFE3C5D7 /* Test2020Pro-umbrella.h */,
+				CBE603D059AAAE16408E95456618479C /* ycfRepoTest0 */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Test2020Pro";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		CA9F46836C93391A7C33F491DBBD1C65 /* YCFDIY */ = {
+		CBE603D059AAAE16408E95456618479C /* ycfRepoTest0 */ = {
 			isa = PBXGroup;
 			children = (
-				C7BB4D90D25743861AA5F174D9D33EB2 /* AAHeader.h */,
-				06122D255CFC392974F731BA04019A03 /* Persion */,
-				8E153FC1CE96428DBF9B329F8CDEC7D8 /* Resources */,
+				DA65C620F3ED946736BCD439DD26A7F1 /* Pod */,
+				77CBC0E98FCC793F3F41038161945338 /* Resources */,
+				D76B87AA5809EB08700C8B6EA2048B52 /* Support Files */,
+				32979D3E9F5854BD5A042D15BCA4A3AE /* YCFDIY */,
 			);
-			name = YCFDIY;
-			sourceTree = "<group>";
-		};
-		CE2790BDC86A9319F7FFA8B92DAB10AA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8057959CD5586C0330E20AE3B6F6812A /* Pods_Test2020Pro_Example.framework */,
-				2CFD282CF1E9564933970407DEC08BE1 /* Pods_Test2020Pro_Tests.framework */,
-				12BA5EB4A16990C8D9959D10B9F973AD /* Test2020Pro.framework */,
-			);
-			name = Products;
+			name = ycfRepoTest0;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				8AEDD14FA72C5F067AA67211147B53A7 /* Development Pods */,
+				B5FE4DFDC615A052EDF2832E7F1F97DE /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				CE2790BDC86A9319F7FFA8B92DAB10AA /* Products */,
+				2EF4AF4822B0179B99FBBF3AF44102DC /* Products */,
 				E7D1E5AED53F9C9E3D8E6E1418F42596 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D76B87AA5809EB08700C8B6EA2048B52 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D36B6263B8A9C98E99D02342CD6B9E54 /* ycfRepoTest0.modulemap */,
+				C7DDE7D876FB47BD58DE64E338FA3E64 /* ycfRepoTest0.xcconfig */,
+				9DAADB97125B6B28E83303AB6E87CB0A /* ycfRepoTest0-dummy.m */,
+				20803EEF7BECB3FC3A051EAAFF23D33F /* ycfRepoTest0-Info.plist */,
+				91EDE6A5328DFAE7465F1552BE1A04F3 /* ycfRepoTest0-prefix.pch */,
+				7E0B2CA7ACC3C98A383C40822CA9DC22 /* ycfRepoTest0-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ycfRepoTest0";
+			sourceTree = "<group>";
+		};
+		DA65C620F3ED946736BCD439DD26A7F1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BE3CB2B25535DF8EDBE8F4B3593C5C5C /* LICENSE */,
+				6F721BAADA048D8E2B618A9942F48454 /* README.md */,
+				654A53944AF25B732D51251A1F811DBA /* ycfRepoTest0.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
@@ -281,45 +281,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F30DC15B5C3223FE89544451D45B904 /* Headers */ = {
+		848E33CF3979BDB7C4590BCC67C72DFF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E25472248E2E1E8EE7801F798B1577F /* AAHeader.h in Headers */,
-				6C7738BA970C59FD4F645DCFF5BB4EC9 /* Person.h in Headers */,
-				75490EC3CC753827933F688AC6A146B0 /* Test2020Pro-umbrella.h in Headers */,
+				9B1B9B219425305F8D9931A8DF0FB51D /* Pods-Test2020Pro_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE2BFF9F53B68848E1D56E9435561CA4 /* Headers */ = {
+		A702B4ED5C19C88032B2906B2169219F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16986AE82D79B6C2A2D35B01966720A9 /* Pods-Test2020Pro_Example-umbrella.h in Headers */,
+				423AB029EEAA5FDEBCCC99BCC6E48886 /* AAHeader.h in Headers */,
+				31D4513610E921299F36001E60E092CB /* Person.h in Headers */,
+				27EECF4BA60243CF721D4F412166F049 /* ycfRepoTest0-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		555BB0F7B413AA4305A2C031AAD69BF9 /* Test2020Pro */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 05B1A876AB66A0C4A678021B79CA7E1C /* Build configuration list for PBXNativeTarget "Test2020Pro" */;
-			buildPhases = (
-				5F30DC15B5C3223FE89544451D45B904 /* Headers */,
-				9C29CC2F0C21B22A7EFC59A0974F864D /* Sources */,
-				A391D15FA50A2CE540F55A64FD2D4EC9 /* Frameworks */,
-				64C51B16A83B7D3BDBF74F9B61591231 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Test2020Pro;
-			productName = Test2020Pro;
-			productReference = 12BA5EB4A16990C8D9959D10B9F973AD /* Test2020Pro.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		824062D4730716DB36D760B280BA55AD /* Pods-Test2020Pro_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D06A9FBF7679338ED2000BA2CA168CE /* Build configuration list for PBXNativeTarget "Pods-Test2020Pro_Tests" */;
@@ -339,19 +321,37 @@
 			productReference = 2CFD282CF1E9564933970407DEC08BE1 /* Pods_Test2020Pro_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F6352408F05E29476BA923C079240169 /* Pods-Test2020Pro_Example */ = {
+		B43E44FDE7EE3CD654771743FCEC76F0 /* ycfRepoTest0 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9656D9F958BBE4AD001D70EBDE7F69F6 /* Build configuration list for PBXNativeTarget "Pods-Test2020Pro_Example" */;
+			buildConfigurationList = A7132A074F883F1E0ADCDA52133116C3 /* Build configuration list for PBXNativeTarget "ycfRepoTest0" */;
 			buildPhases = (
-				EE2BFF9F53B68848E1D56E9435561CA4 /* Headers */,
-				D78EEFC169F185CDF72F38B4369E06F7 /* Sources */,
-				66E61938E08E6B660A1B1912D62C215C /* Frameworks */,
-				C9A53186966B6EE643F47033C664AA56 /* Resources */,
+				A702B4ED5C19C88032B2906B2169219F /* Headers */,
+				0744C06D12C0B7BEAFC11F3476655B70 /* Sources */,
+				8BBB620228E77EFA37E861C5D8FCBD4C /* Frameworks */,
+				6615E04D8D415B5B35BDDB7749B7F571 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				12472233D32F2D719675D78E0CEDA814 /* PBXTargetDependency */,
+			);
+			name = ycfRepoTest0;
+			productName = ycfRepoTest0;
+			productReference = 1FD7F1026A5A7572A60B5CB62F8D9919 /* ycfRepoTest0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6352408F05E29476BA923C079240169 /* Pods-Test2020Pro_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58F2738F3B399E88B633B441107F2173 /* Build configuration list for PBXNativeTarget "Pods-Test2020Pro_Example" */;
+			buildPhases = (
+				848E33CF3979BDB7C4590BCC67C72DFF /* Headers */,
+				7F14A4B15DE0C4EA52B33FA14FF101EE /* Sources */,
+				0872808B34B53F89F04525E4703A9497 /* Frameworks */,
+				1709885A8A7A2AD03CBD9AFB65DA1D84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20AD9ABDFCFA68A0796B997C171234F1 /* PBXTargetDependency */,
 			);
 			name = "Pods-Test2020Pro_Example";
 			productName = "Pods-Test2020Pro_Example";
@@ -376,31 +376,31 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = CE2790BDC86A9319F7FFA8B92DAB10AA /* Products */;
+			productRefGroup = 2EF4AF4822B0179B99FBBF3AF44102DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F6352408F05E29476BA923C079240169 /* Pods-Test2020Pro_Example */,
 				824062D4730716DB36D760B280BA55AD /* Pods-Test2020Pro_Tests */,
-				555BB0F7B413AA4305A2C031AAD69BF9 /* Test2020Pro */,
+				B43E44FDE7EE3CD654771743FCEC76F0 /* ycfRepoTest0 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		64C51B16A83B7D3BDBF74F9B61591231 /* Resources */ = {
+		1709885A8A7A2AD03CBD9AFB65DA1D84 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68D9F8608BB1A15D9D6994CEFD2CB5C7 /* EaseUIResource.bundle in Resources */,
-				9867B08E8A3219F5790DA11F961E359B /* NHIMDIYModule.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9A53186966B6EE643F47033C664AA56 /* Resources */ = {
+		6615E04D8D415B5B35BDDB7749B7F571 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C692EEAFEC6387B414F27C3EE583C90E /* EaseUIResource.bundle in Resources */,
+				C96E97A214C49A50BB8CB6EB04A830F5 /* NHIMDIYModule.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +414,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0744C06D12C0B7BEAFC11F3476655B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC7B66B08261505A0091CD6CCF45194D /* Person.m in Sources */,
+				38A04EBA350949F7D5FBB212DD2B326C /* ycfRepoTest0-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		535D52EA66A9893E48FD41BC8938CF54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -422,20 +431,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C29CC2F0C21B22A7EFC59A0974F864D /* Sources */ = {
+		7F14A4B15DE0C4EA52B33FA14FF101EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB015E0A810E1125A1283F9C011E57F0 /* Person.m in Sources */,
-				53DAA40296E52B3F47EACB75E842FBB1 /* Test2020Pro-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D78EEFC169F185CDF72F38B4369E06F7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				133E9841B488B84BAA0D834775709FEF /* Pods-Test2020Pro_Example-dummy.m in Sources */,
+				CFEA3F857907F905E752DE7696C40133 /* Pods-Test2020Pro_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,50 +448,18 @@
 			target = F6352408F05E29476BA923C079240169 /* Pods-Test2020Pro_Example */;
 			targetProxy = 805E8498A4BFF37861B0CCD551DDAD43 /* PBXContainerItemProxy */;
 		};
-		12472233D32F2D719675D78E0CEDA814 /* PBXTargetDependency */ = {
+		20AD9ABDFCFA68A0796B997C171234F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Test2020Pro;
-			target = 555BB0F7B413AA4305A2C031AAD69BF9 /* Test2020Pro */;
-			targetProxy = E3B25AC95CF35DDF7E7AC237D5D8ED64 /* PBXContainerItemProxy */;
+			name = ycfRepoTest0;
+			target = B43E44FDE7EE3CD654771743FCEC76F0 /* ycfRepoTest0 */;
+			targetProxy = 8B544A3A11CF37317F28232CC725720B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		42A6BFCF48F5681EA84297416CDB89AC /* Release */ = {
+		0A46CCBB416C97A5833B0AD5A7B02EA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF3C30F85EA391B89C1AA89E6DCF23F7 /* Test2020Pro.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Test2020Pro/Test2020Pro-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Test2020Pro/Test2020Pro-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Test2020Pro/Test2020Pro.modulemap";
-				PRODUCT_MODULE_NAME = Test2020Pro;
-				PRODUCT_NAME = Test2020Pro;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		487718DDC335D7229DD4CF52F76EC27D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 252FCFDD5B3F764960C4675E912844EA /* Pods-Test2020Pro_Example.release.xcconfig */;
+			baseConfigurationReference = 98EFB9B7B89623AF6FD675BFFDEA5BFC /* Pods-Test2020Pro_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -516,6 +484,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37AF270B8AB8948D9DE260000593EC8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7DDE7D876FB47BD58DE64E338FA3E64 /* ycfRepoTest0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ycfRepoTest0/ycfRepoTest0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ycfRepoTest0/ycfRepoTest0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ycfRepoTest0/ycfRepoTest0.modulemap";
+				PRODUCT_MODULE_NAME = ycfRepoTest0;
+				PRODUCT_NAME = ycfRepoTest0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -576,7 +575,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -680,9 +680,40 @@
 			};
 			name = Debug;
 		};
-		BA3D4A9274A68D9884DC15C12B8AC8A6 /* Debug */ = {
+		9688D28BFF4823D9562EA4C2BA5AF3D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98EFB9B7B89623AF6FD675BFFDEA5BFC /* Pods-Test2020Pro_Example.debug.xcconfig */;
+			baseConfigurationReference = C7DDE7D876FB47BD58DE64E338FA3E64 /* ycfRepoTest0.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ycfRepoTest0/ycfRepoTest0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ycfRepoTest0/ycfRepoTest0-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ycfRepoTest0/ycfRepoTest0.modulemap";
+				PRODUCT_MODULE_NAME = ycfRepoTest0;
+				PRODUCT_NAME = ycfRepoTest0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDF9861B24D41EE70B4F145111CE0E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 252FCFDD5B3F764960C4675E912844EA /* Pods-Test2020Pro_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -708,10 +739,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		FCF6DA806463D1A8D4E2D1EF6230AE36 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -746,49 +778,9 @@
 			};
 			name = Debug;
 		};
-		FF591BA6BE0FD4E7A8E1382076F26369 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF3C30F85EA391B89C1AA89E6DCF23F7 /* Test2020Pro.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Test2020Pro/Test2020Pro-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Test2020Pro/Test2020Pro-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Test2020Pro/Test2020Pro.modulemap";
-				PRODUCT_MODULE_NAME = Test2020Pro;
-				PRODUCT_NAME = Test2020Pro;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05B1A876AB66A0C4A678021B79CA7E1C /* Build configuration list for PBXNativeTarget "Test2020Pro" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FF591BA6BE0FD4E7A8E1382076F26369 /* Debug */,
-				42A6BFCF48F5681EA84297416CDB89AC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -807,11 +799,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9656D9F958BBE4AD001D70EBDE7F69F6 /* Build configuration list for PBXNativeTarget "Pods-Test2020Pro_Example" */ = {
+		58F2738F3B399E88B633B441107F2173 /* Build configuration list for PBXNativeTarget "Pods-Test2020Pro_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA3D4A9274A68D9884DC15C12B8AC8A6 /* Debug */,
-				487718DDC335D7229DD4CF52F76EC27D /* Release */,
+				0A46CCBB416C97A5833B0AD5A7B02EA6 /* Debug */,
+				EDF9861B24D41EE70B4F145111CE0E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7132A074F883F1E0ADCDA52133116C3 /* Build configuration list for PBXNativeTarget "ycfRepoTest0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9688D28BFF4823D9562EA4C2BA5AF3D7 /* Debug */,
+				37AF270B8AB8948D9DE260000593EC8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

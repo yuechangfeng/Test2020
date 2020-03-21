@@ -1,0 +1,6 @@
+framework module ycfRepoTest0 {
+  umbrella header "ycfRepoTest0-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "ycfRepoTest0",
+  "version": "0.6.0",
+  "summary": "ycfRepoTest0 summary",
+  "description": "ycfRepoTest0 -- description",
+  "homepage": "https://github.com/yuechangfeng/Test2020",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1640896090@qq.com": "yuecf@bsoft.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/yuechangfeng/Test2020.git",
+    "tag": "0.6.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "resources": "Test2020Pro/resources/EaseUIResource.bundle",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "subspecs": [
+    {
+      "name": "YCFDIY",
+      "source_files": "Test2020Pro/YCFDIY/Classes/**/*.{h,m}",
+      "resources": "Test2020Pro/YCFDIY/Resources/NHIMDIYModule.bundle"
+    }
+  ]
+}

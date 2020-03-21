@@ -1,6 +1,0 @@
-framework module Test2020Pro {
-  umbrella header "Test2020Pro-umbrella.h"
-
-  export *
-  module * { export * }
-}

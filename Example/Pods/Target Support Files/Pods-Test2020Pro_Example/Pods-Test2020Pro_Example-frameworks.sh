@@ -161,10 +161,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Test2020Pro/Test2020Pro.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ycfRepoTest0/ycfRepoTest0.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Test2020Pro/Test2020Pro.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/ycfRepoTest0/ycfRepoTest0.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
