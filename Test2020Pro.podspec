@@ -9,10 +9,10 @@
 Pod::Spec.new do |s|
   s.name             = 'Test2020Pro'
   s.version          = '0.3.0'
-  s.summary          = 'A short description of Test2020Pro.'
+  s.summary          = 'Test2020Pro summary'
 
   s.description      = <<-DESC
-  Test2020Pro 123456vfd 的反馈
+  Test2020Pro -- description
                        DESC
 
   s.homepage         = 'https://github.com/yuechangfeng/Test2020'
