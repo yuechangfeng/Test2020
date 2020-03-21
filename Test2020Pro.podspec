@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Test2020Pro'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'Test2020Pro summary'
 
   s.description      = <<-DESC
@@ -25,9 +25,11 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   
   s.source_files = 'Test2020Pro/Classes/*.{h,m}'
-#  s.subspec 'Person' do |p|
-#
-#  end
+  
+  s.subspec 'Person' do |p|
+    s.source_files = 'Test2020Pro/Classes/*.{h,m}'
+    
+  end
   
   # s.resources =  'Test2020Pro/Test2020Pro/*.json','Test2020Pro/**/*.xib'
   
