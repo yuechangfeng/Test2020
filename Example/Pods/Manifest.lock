@@ -1,5 +1,7 @@
 PODS:
-  - Test2020Pro (0.1.0)
+  - Test2020Pro (0.2.0):
+    - Test2020Pro/Person (= 0.2.0)
+  - Test2020Pro/Person (0.2.0)
 
 DEPENDENCIES:
   - Test2020Pro (from `../`)
@@ -9,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Test2020Pro: 3bf5192eaf3ad6848054e00bb413fb6ade35d04f
+  Test2020Pro: 93f75e1e8f0b7133b65641738a29762cfd600e63
 
 PODFILE CHECKSUM: 3adcd11b4f46ad545e85f84405293d367f9e65ad
 
