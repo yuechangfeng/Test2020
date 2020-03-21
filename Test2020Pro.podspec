@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   Test2020Pro 123456vfd 的反馈
                        DESC
 
-  s.homepage         = 'https://github.com/1640896090@qq.com/Test2020Pro'
+  s.homepage         = 'https://github.com/yuechangfeng/Test2020'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1640896090@qq.com' => 'yuecf@bsoft.com.cn' }
-  s.source           = { :git => 'https://github.com/1640896090@qq.com/Test2020Pro.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yuechangfeng/Test2020.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
