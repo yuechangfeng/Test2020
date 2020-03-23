@@ -22,11 +22,16 @@
     strVersion = [NSString stringWithFormat:@"%@\n%@", strVersion, @"版本更新 version == 0.4.0\n"];
     strVersion = [NSString stringWithFormat:@"%@\n%@", strVersion, @"版本更新 version == 0.5.0\n"];
     
+    strVersion = [NSString stringWithFormat:@"%@\n%@", strVersion, @"版本更新 version == 0.6.0\n"];
+    strVersion = [NSString stringWithFormat:@"%@\n%@", strVersion, @"版本更新 version == 0.7.0\n"];
+    
     NSLog(@"%@", strVersion);
 }
 
 - (void)NewJn1 {
     NSLog(@" 新技能");
+    
+    NSLog(@" version == 0.7.0 之后的 - 新技能");
 }
 
 @end
