@@ -25,6 +25,10 @@
     strVersion = [NSString stringWithFormat:@"%@\n%@", strVersion, @"版本更新 version == 0.6.0\n"];
     strVersion = [NSString stringWithFormat:@"%@\n%@", strVersion, @"版本更新 version == 0.7.0\n"];
     
+    strVersion = [NSString stringWithFormat:@"%@\n%@", strVersion, @"版本更新 version == 0.8.0\n"];
+    
+    strVersion = [NSString stringWithFormat:@"%@\n%@", strVersion, @"版本更新 version == 0.9.0\n"];
+    
     NSLog(@"%@", strVersion);
 }
 
@@ -32,6 +36,9 @@
     NSLog(@" 新技能");
     
     NSLog(@" version == 0.7.0 之后的 - 新技能");
+    NSLog(@" version == 0.8.0 之后的 - 新技能");
+    
+    NSLog(@" version == 0.9.0 之后的 - 新技能");
 }
 
 @end
