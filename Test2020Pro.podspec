@@ -51,6 +51,5 @@ Pod::Spec.new do |s|
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
-  s.dependency 'WechatOpenSDK', '= 1.8.6.2'
   
 end
