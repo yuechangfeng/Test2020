@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Test2020Pro'
-  s.version          = '0.10.0'
+  s.version          = '1.0.0'
   s.summary          = 'Test2020Pro summary'
   
   s.description      = <<-DESC
@@ -22,9 +22,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/yuechangfeng/Test2020.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
-  s.ios.deployment_target = '8.0'
-  
-#  s.source_files = 'Test2020Pro/Classes/*.{h,m}'
+  s.ios.deployment_target = '9.0'
+    
 #  s.public_header_files = '**/*.{h}'
   
   s.resource     = 'Test2020Pro/resources/EaseUIResource.bundle'
@@ -33,10 +32,19 @@ Pod::Spec.new do |s|
   s.subspec 'YCFDIY' do |sub|
     sub.source_files = 'Test2020Pro/YCFDIY/Classes/**/*.{h,m}'
     sub.resource = 'Test2020Pro/YCFDIY/Resources/NHIMDIYModule.bundle'
+    
+    sub.vendored_frameworks = 'NHCorePayService/SDK/JianbaoPay/*.framework'
+    
+    sub.frameworks = 'UIKit', 'Foundation', 'CFNetwork', 'SystemConfiguration'
+    sub.libraries = 'z', 'xml2'
+    
+    sub.dependency 'AlipaySDK-iOS'
+    sub.dependency 'WechatOpenSDK', '= 1.8.6.2'
+    sub.dependency 'Masonry'
+    sub.dependency 'YYModel'
   end
   
   # s.resources =  'Test2020Pro/Test2020Pro/*.json','Test2020Pro/**/*.xib'
-  
   # s.resource_bundles = {
   #   'Test2020Pro' => ['Test2020Pro/Assets/*.png']
   # }
