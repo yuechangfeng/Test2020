@@ -13,6 +13,6 @@
 #import "AAHeader.h"
 #import "Person.h"
 
-FOUNDATION_EXPORT double ycfRepoTest0VersionNumber;
-FOUNDATION_EXPORT const unsigned char ycfRepoTest0VersionString[];
+FOUNDATION_EXPORT double Test2020ProVersionNumber;
+FOUNDATION_EXPORT const unsigned char Test2020ProVersionString[];
 

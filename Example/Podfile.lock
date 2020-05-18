@@ -1,18 +1,18 @@
 PODS:
-  - ycfRepoTest0 (0.6.0):
-    - ycfRepoTest0/YCFDIY (= 0.6.0)
-  - ycfRepoTest0/YCFDIY (0.6.0)
+  - Test2020Pro (1.0.1):
+    - Test2020Pro/YCFDIY (= 1.0.1)
+  - Test2020Pro/YCFDIY (1.0.1)
 
 DEPENDENCIES:
-  - ycfRepoTest0 (from `../`)
+  - Test2020Pro (from `../`)
 
 EXTERNAL SOURCES:
-  ycfRepoTest0:
+  Test2020Pro:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ycfRepoTest0: 14a10d725bb123261fbd4daa85a600a54816c7bb
+  Test2020Pro: cfe63387865a310127288f0622c0f6c670942431
 
-PODFILE CHECKSUM: 0ad5185e54ad2ffcb9854547f1045d4f81f167fe
+PODFILE CHECKSUM: 7c0b1f662b36a3292ea6ef7effd0cb1d05104661
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.9.1

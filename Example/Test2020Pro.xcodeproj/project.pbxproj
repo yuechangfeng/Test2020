@@ -324,11 +324,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Test2020Pro_Example/Pods-Test2020Pro_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ycfRepoTest0/ycfRepoTest0.framework",
+				"${BUILT_PRODUCTS_DIR}/Test2020Pro/Test2020Pro.framework",
+				"${PODS_ROOT}/../../Test2020Pro/YCFDIY/SDK/JianbaoPay/HPaySDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ycfRepoTest0.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Test2020Pro.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HPaySDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

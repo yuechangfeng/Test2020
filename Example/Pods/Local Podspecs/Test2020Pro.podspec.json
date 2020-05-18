@@ -1,6 +1,6 @@
 {
   "name": "Test2020Pro",
-  "version": "0.5.0",
+  "version": "1.0.1",
   "summary": "Test2020Pro summary",
   "description": "Test2020Pro -- description",
   "homepage": "https://github.com/yuechangfeng/Test2020",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/yuechangfeng/Test2020.git",
-    "tag": "0.5.0"
+    "tag": "1.0.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "resources": "Test2020Pro/resources/EaseUIResource.bundle",
   "frameworks": [
@@ -27,7 +27,18 @@
     {
       "name": "YCFDIY",
       "source_files": "Test2020Pro/YCFDIY/Classes/**/*.{h,m}",
-      "resources": "Test2020Pro/YCFDIY/Resources/NHIMDIYModule.bundle"
+      "resources": "Test2020Pro/YCFDIY/Resources/NHIMDIYModule.bundle",
+      "vendored_frameworks": "Test2020Pro/YCFDIY/SDK/JianbaoPay/*.framework",
+      "frameworks": [
+        "UIKit",
+        "Foundation",
+        "CFNetwork",
+        "SystemConfiguration"
+      ],
+      "libraries": [
+        "z",
+        "xml2"
+      ]
     }
   ]
 }
