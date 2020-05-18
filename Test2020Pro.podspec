@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Test2020Pro'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Test2020Pro summary'
   
   s.description      = <<-DESC
@@ -40,8 +40,8 @@ Pod::Spec.new do |s|
     
     #sub.dependency 'AlipaySDK-iOS'
     #sub.dependency 'WechatOpenSDK', '= 1.8.6.2'
-    sub.dependency 'Masonry'
-    sub.dependency 'YYModel'
+    #sub.dependency 'Masonry'
+    #sub.dependency 'YYModel'
   end
   
   # s.resources =  'Test2020Pro/Test2020Pro/*.json','Test2020Pro/**/*.xib'
