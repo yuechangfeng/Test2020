@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
     sub.source_files = 'Test2020Pro/YCFDIY/Classes/**/*.{h,m}'
     sub.resource = 'Test2020Pro/YCFDIY/Resources/NHIMDIYModule.bundle'
     
-    sub.vendored_frameworks = 'NHCorePayService/SDK/JianbaoPay/*.framework'
+    sub.vendored_frameworks = 'Test2020Pro/YCFDIY/SDK/JianbaoPay/*.framework'
     
     sub.frameworks = 'UIKit', 'Foundation', 'CFNetwork', 'SystemConfiguration'
     sub.libraries = 'z', 'xml2'
