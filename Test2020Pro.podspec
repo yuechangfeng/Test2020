@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Test2020Pro'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Test2020Pro summary'
   
   s.description      = <<-DESC
@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
     
     sub.vendored_frameworks = 'Test2020Pro/YCFDIY/SDK/JianbaoPay/*.framework'
     
-    sub.frameworks = 'UIKit', 'Foundation', 'CFNetwork', 'SystemConfiguration'
+    sub.frameworks = 'CFNetwork', 'SystemConfiguration'
     sub.libraries = 'z', 'xml2'
     
     #sub.dependency 'AlipaySDK-iOS'
@@ -51,5 +51,7 @@ Pod::Spec.new do |s|
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AlipaySDK-iOS'
+  s.dependency 'WechatOpenSDK', '= 1.8.6.2'
+  
 end
