@@ -38,8 +38,8 @@ Pod::Spec.new do |s|
     sub.frameworks = 'UIKit', 'Foundation', 'CFNetwork', 'SystemConfiguration'
     sub.libraries = 'z', 'xml2'
     
-    sub.dependency 'AlipaySDK-iOS'
-    sub.dependency 'WechatOpenSDK', '= 1.8.6.2'
+    #sub.dependency 'AlipaySDK-iOS'
+    #sub.dependency 'WechatOpenSDK', '= 1.8.6.2'
     sub.dependency 'Masonry'
     sub.dependency 'YYModel'
   end
