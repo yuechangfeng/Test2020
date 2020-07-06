@@ -24,6 +24,9 @@
     Person *one = [[Person alloc] init];
     [one personJn];
     [one testVersion];
+    
+    // 分支标记：
+    // 这里是 master 分支
 }
 
 - (void)didReceiveMemoryWarning
