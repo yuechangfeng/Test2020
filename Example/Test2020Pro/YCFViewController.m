@@ -32,4 +32,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)test {
+    /**
+     git checkout branch_name
+     
+     git pull
+     
+     git merge branch_name
+     
+     git push
+     */
+}
+
 @end
